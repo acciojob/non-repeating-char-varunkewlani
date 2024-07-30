@@ -13,7 +13,7 @@ function firstNonRepeatedChar(str) {
 			{
 				data.set(str[i].data.get(i)++)
 			}
-		})
+		}
 	for(let x of data)
 		{
 			if(x[1]==1)
