@@ -7,7 +7,7 @@ function firstNonRepeatedChar(str) {
 				s=str.charAt(i)
 			}
 		}
-	if(s="")
+	if(s=="")
 		return "null"
 	else
 		return s
