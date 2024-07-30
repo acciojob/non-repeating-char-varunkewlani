@@ -11,7 +11,7 @@ function firstNonRepeatedChar(str) {
 			}
 			else
 			{
-				data.set(str[i],data.get(str[i])++)
+				data.set(str[i],data.get(str[i])+1)
 			}
 		}
 	for(let x of data)
