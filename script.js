@@ -1,13 +1,13 @@
 function firstNonRepeatedChar(str) {
 	let data=new Map()
-	let count=0;
+	
 	for(let i=0;i<str.length;i++)
 		{
 			
 			if(!data.has(str[i]))
 			{
-				count=0;
-				data.set(str[i],count++)
+				
+				data.set(str[i],1)
 			}
 			else
 			{
@@ -25,7 +25,7 @@ function firstNonRepeatedChar(str) {
 	return null;
 	
 		
-	
+
  // Write your code here
 }
 const input = prompt("Enter a string");
