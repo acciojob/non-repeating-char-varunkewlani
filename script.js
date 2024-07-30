@@ -1,11 +1,16 @@
 function firstNonRepeatedChar(str) {
+	let s=""
 	for(let i=0;i<str.length-1;i++)
 		{
-			if(str.charAt(i)!=str.charAt(i+1) && str.charAt(i)!=str.charAt(i-1))
+			ifstr.charAt(i)!=str.charAt(i+1) && str.charAt(i)!=str.charAt(i-1))
 			{
-				return str.charAt(i)
+				s=str.charAt(i)
 			}
 		}
+	if(s="")
+		return null
+	else
+		return s
  // Write your code here
 }
 const input = prompt("Enter a string");
