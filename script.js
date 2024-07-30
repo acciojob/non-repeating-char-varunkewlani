@@ -8,7 +8,7 @@ function firstNonRepeatedChar(str) {
 			}
 		}
 	if(s=="")
-		return "null"
+		return null 
 	else
 		return s
  // Write your code here
